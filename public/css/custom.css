@@ -1,0 +1,44 @@
+/* .logo-resize{
+    width: 100px;
+    height: auto;
+}
+
+.hei{
+    color: blue;
+} */
+
+.removeBorderColor:focus{
+    border-color: white !important;
+}
+
+p{
+    margin-bottom: 0rem !important;
+}
+
+.remove_line{
+    text-decoration: none;
+}
+
+/* .trans:hover{
+
+    padding: 10px;
+
+} */
+
+.trans { 
+    transition: all .3s ease-in-out; 
+    cursor: pointer;
+}
+
+.trans:hover { 
+    transform: scale(1.05); 
+    z-index: 1; 
+    /* border-color: #243F8D; */
+    border: 2px solid #243F8D;
+    /* background: linear-gradient(#243F8D, #40bfef); */
+    background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	opacity: 1;
+  	background-blend-mode: multiply;
+}
